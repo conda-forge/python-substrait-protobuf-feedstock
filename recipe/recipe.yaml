@@ -42,6 +42,10 @@ about:
   repository: https://github.com/substrait-io/substrait-packaging
 
 extra:
+  mappings:
+    python:
+      pypi: substrait-protobuf
+      import_name: substrait.plan_pb2
   recipe-maintainers:
     - westonpace
     - epsilonprime
