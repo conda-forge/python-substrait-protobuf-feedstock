@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.103.0"
+  version: "0.103.1"
 
 package:
   name: python-substrait-protobuf
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/substrait-protobuf/substrait_protobuf-${{ version }}.tar.gz
-  sha256: cc0fc91fe59245894c8315f901343be0da43daeb5f8a527ca43a2be394a466a9
+  sha256: a7688ce0705d3cee88ff99218c68188d7466837f7c6fbc6e6dfc8053427ac9e6
 
 build:
   number: 0
